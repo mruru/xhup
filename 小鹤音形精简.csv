@@ -6148,8 +6148,8 @@ m̀,opm,1
 ǘ,opv,1
 ǜ,opv,1
 ǖ,opv,1
-%yyyy%年%M%月%d%日,orq,1
-%yyyy%-%MM%-%dd%,orq,2
+%%yyyy%%年%%M%%月%%d%%日 周%%w%%,orq,2
+%%yyyy%%-%%M%%-%%d%%,orq,1
 偶然性,orx,1
 ＆,ota,1
 α,ota,2
@@ -6225,8 +6225,8 @@ $,otm,3
 藕粉,ouf,1
 讴歌,oug,1
 𬉼,ouh,1
-%H%点%mm%分,ouj,2
-%H%:%mm% 周%w%,ouj,1
+%%H%%点%%mm%%分,ouj,1
+%%h%%:%%mm%%:%%ss%%,ouj,2
 呕,ouk,1
 耦,oul,1
 欧盟,oum,1
@@ -6251,8 +6251,6 @@ $,otm,3
 Ⅶ,oyq,2
 Ⅲ,oys,2
 ③,oys,1
-④ ,oyf,1
-Ⅳ,oyf,2
 ⑩,oyu,1
 Ⅹ,oyu,2
 ⑤,oyw,1
