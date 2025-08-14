@@ -5,20 +5,20 @@
 3. 如需要修改请按照文件的编码格式进行修改。
 4. 修改后使用conver.py脚本进行转换
    ​   转换结果为.dat文件，可在输入法设置界面导入。
-      运行命令 python ms_pinyin_tool.py
+      在安装了python的情况下，双击运行ms_pinyin_tool.py
    ![](images/屏幕截图2.png)
 5. 常用符号采用了老版本的快捷符号如（半角符号）
-   ow	= ？
-   oa	= ！
-   of = ；
-   os = ……
-   od = 、
-   op = ～
-   oq	= ‰
-   ob	= %
-   ok/ol	=《/》
-   oz/oc	=“
-   oh/oj = (/)
+   ow	= ？  
+   oa	= ！  
+   of = ；  
+   os = ……  
+   od = 、  
+   op = ～  
+   oq	= ‰  
+   ob	= %  
+   ok/ol	=《/》  
+   oz/oc	=“  
+   oh/oj = (/) 
 ## 使用方法
 1. 下载注册表文件并导入以设置微软拼音双拼方案为小鹤双拼
 2. 导入小鹤双拼自定义短语 dat文件以实现挂接小鹤音形码表
