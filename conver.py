@@ -95,9 +95,9 @@ def SaveToDat(table: List[Entry], output_file: str):
             print(f"  - {entry.word} ({entry.code}) 序号: {entry.order}")
 
 def main():
-    print("🛠️ 微软拼音词库转换工具（交互式）")
+    print("🛠️ 微软拼音词库转换工具")
     input_file = input("📂 输入词库文件路径（默认 词库.csv）: ").strip() or "词库.csv"
-    output_file = input("📁 输出 .dat 文件路径（默认 微软自定义短语.dat）: ").strip() or "微软自定义短语.dat"
+    output_file = input("📁 输出.dat文件路径（默认 微软自定义短语.dat）: ").strip() or "微软自定义短语.dat"
 
     if not os.path.exists(input_file):
         print(f"❌ 错误：文件不存在 → {input_file}")
