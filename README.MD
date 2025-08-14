@@ -6,7 +6,7 @@
 4. 修改后使用conver.py脚本进行转换
    ​   转换结果为.dat文件，可在输入法设置界面导入。
       运行命令 python conver.py
-   ![](images/屏幕截图2.png){width=500px}
+   ![](images/屏幕截图2.png)
 5. 常用符号采用了老版本的快捷符号如（半角符号）
    ow	= ？
    oa	= ！
