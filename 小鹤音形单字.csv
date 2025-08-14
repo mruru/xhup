@@ -12650,7 +12650,7 @@ $,ofhb,1
 走,zztr,1
 %%H%%点%%mm%%分,ouj,1
 %%h%%:%%mm%%:%%ss%%,ouj,2
-%%yyyy%%年%%M%%月%%d%%日周%%w%%,orq,2
-%%yyyy%%-%%M%%-%%d%%,orq,1
+%%yyyy%%年%%M%%月%%d%%日周%%w%%,orq,1
+%%yyyy%%-%%M%%-%%d%%,orq,2
 微软小鹤,wrxh,1
 %appdata%\Microsoft\InputMethod\Chs,wrxh,2
