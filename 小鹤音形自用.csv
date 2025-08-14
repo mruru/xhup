@@ -4620,8 +4620,8 @@ $,otm,3
 藕粉,ouf,1
 讴歌,oug,1
 𬉼,ouh,1
-%%H%%点%%mm%%分,ouj,1
-%%h%%:%%mm%%:%%ss%%,ouj,2
+%%H%%点%%MM%%分,ouj,2
+%%H%%:%%MM%%,ouj,1
 呕,ouk,1
 耦,oul,1
 欧盟,oum,1
@@ -39688,7 +39688,7 @@ U盘,upj,1
 珍禽,vfqb,1
 真气,vfqi,1
 真情,vfqk,1
-真枪,vfql,1
+真强,vfql,1
 真巧,vfqn,1
 真切,vfqp,1
 斟,vfqu,1
@@ -44921,6 +44921,7 @@ U盘,upj,1
 音信,ybxb,1
 因袭,ybxi,1
 隐形,ybxk,1
+音形,ybxk,2
 印象,ybxl,1
 阴险,ybxm,1
 音效,ybxn,1
