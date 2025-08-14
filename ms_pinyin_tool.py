@@ -60,7 +60,7 @@ def LoadInputFile(input_file: str) -> List[Entry]:
             lines = f.readlines()
 
     start = 0
-    if lines and any(k in lines[0] for k in ["词语", "拼音", "候选词位置"]):
+    if lines and any(k in lines[0] for k in ["词组", "拼音", "候选词位置"]):
         start = 1
 
     for line in lines[start:]:
