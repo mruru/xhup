@@ -95,22 +95,34 @@ def SaveToDat(table: List[Entry], output_file: str):
             print(f"  - {entry.word} ({entry.code}) 序号: {entry.order}")
 
 def main():
+    logging.basicConfig(level=logging.WARNING)
     print("🛠️ 微软拼音词库转换工具")
-    input_file = input("📂 输入词库文件路径（默认 词库.csv）: ").strip() or "词库.csv"
-    output_file = input("📁 输出.dat文件路径（默认 微软自定义短语.dat）: ").strip() or "微软自定义短语.dat"
 
-    if not os.path.exists(input_file):
-        print(f"❌ 错误：文件不存在 → {input_file}")
-        return
+    while True:
+        input_file = input("📂 输入词库文件路径（默认 词库.csv）: ").strip() or "词库.csv"
+        # 获取输入文件所在目录
+        input_dir = os.path.dirname(os.path.abspath(input_file))
+        default_output = os.path.join(input_dir, "微软自定义短语.dat")
+        output_file = input(f"📁 输出.dat文件路径（默认 {default_output}）: ").strip() or default_output
 
-    table = LoadInputFile(input_file)
-    if not table:
-        print("⚠️ 未读取到有效词条，终止生成。")
-        return
+        if not os.path.exists(input_file):
+            print(f"❌ 错误：文件不存在 → {input_file}")
+            continue  # 回到开头重新输入
 
-    SaveToDat(table, output_file)
+        table = LoadInputFile(input_file)
+        if not table:
+            print("⚠️ 未读取到有效词条，终止生成。")
+            continue  # 回到开头重新输入
+
+        SaveToDat(table, output_file)
+        break  # 成功后跳出循环
+
+
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.WARNING)
-    main()
-    
+    try:
+        main()
+    except Exception as e:
+        print(f"\n❌ 程序发生错误：{e}")
+    finally:
+        input("\n📌 按回车键退出程序...")
