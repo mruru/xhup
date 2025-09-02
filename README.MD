@@ -3,9 +3,9 @@
 2. 在输入法设置界面可导入自定义短语即可，没有“·”键通配，但是可以使用“‘”进行半通配。
    <img src="images/屏幕截图1.png">
 3. 如需要修改或打造自己的词库，请按照文件的编码格式进行修改。
-4. 修改后可以在https://gaoweix.com/im-dict-converter/  进行转换。或使用我提供的ms_pinyin_tools.py脚本进行转换……
+4. 修改后可以在https://gaoweix.com/im-dict-converter/  进行转换。或使用我提供的转换程序进行转换……
    转换结果为.dat文件，可在输入法设置界面导入。
-   在安装了python的情况下，双击运行ms_pinyin_tool.py
+   下载converter.exe，双击运行，拖入自定义的词库，然后结果将输出词库文件同文件夹中
    <img src="images/屏幕截图2.png">
 5. 常用符号采用了老版本的快捷符号如（半角符号）  
    ow	= ？  
