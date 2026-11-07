@@ -32,7 +32,7 @@
 阿婆,aap,1
 阿婆,aapo,1
 阿嚏,aati,1
-AA制,aav,1
+aa制,aav,1
 阿姨,aay,1
 啊呀,aaya,1
 阿姨,aayi,1
@@ -112,7 +112,6 @@ AA制,aav,1
 挨近,aijb,1
 埃及,aiji,1
 爱将,aijl,1
-娭毑,aijp,1
 艾灸,aijq,1
 锿,aijy,1
 唉,aik,1
@@ -26613,8 +26612,8 @@ $,otm,3
 耦合,ouhe,1
 偶或,ouho,1
 𬉼,ouhx,1
-%%HH%%:%%mm%%,ouj,1
-%%HH%%点%%mm%%分,ouj,2
+%%hh%%:%%mm%%,ouj,1
+%%hh%%点%%mm%%分,ouj,2
 偶见,oujm,1
 藕夹,oujx,1
 呕,ouk,1
@@ -40627,6 +40626,7 @@ U盘,upj,1
 网盘,wp,1
 完全,wq,1
 微软,wr,1
+微软双拼,wrup,1
 %appdata%\Microsoft\InputMethod\Chs,wrxh,1
 猥琐,ws,1
 为什么,wsm,1
@@ -47453,6 +47453,7 @@ U盘,upj,1
 作品,zp,1
 暂且,zq,1
 自然,zr,1
+自然码,zrm,1
 钻到,zrd,1
 钻到,zrdc,1
 钻洞,zrds,1
@@ -47943,7 +47944,6 @@ U盘,upj,1
 走错,zzco,1
 邹,zzd,1
 走到,zzdc,1
-走得,zzde,1
 走低,zzdi,1
 走调,zzdn,1
 走动,zzds,1
@@ -48025,3 +48025,5 @@ U盘,upj,1
 走运,zzyy,1
 走走,zzz,1
 走走,zzzz,1
+低代码,ddm,1
+Linux,linux,1

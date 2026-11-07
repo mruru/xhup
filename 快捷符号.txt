@@ -1,0 +1,27 @@
+快捷符号
+oa=！ ob=% oz=“  oc=”os=……  od=、 oq=‰ ow=？ of=； oh=（ oj=） ok=《 0l=》
+op+字母 拼音快捷 例如
+opa=à á ā ǎ 
+ob+字母 部首快捷 例如
+oba=一 obz=辶 廴
+ox+字母 小字快捷 例如
+oxa =凹 
+ot+字母 特殊快捷 例如
+ota= ＆ α otb=～ β © otc=℃ 
+ofux 数学符号
+ofbd 标点符号
+ofdw 常用单位
+ofhb 货币符号
+ofjt	箭头符号
+ofku 括号数字 ⑴ ⑵之类
+ofyu 圆圈数字 ① ②之类
+ofub 上标 ¹ ²
+ofxb 下标 
+ofvu 中文数字 ㈠ ㈡ ㈢
+orq 日期
+ouj 时间
+owxx 微信表情 
+oixx	 emoji表情
+ojg	 结构符号 ⿰ ⿱ ⿲ 
+ot+字母 特殊字符  如ota=＆ α  otb=～ β ©  otc=℃
+ofld 大写拉丁 oflx 小写拉丁 ofxd 大写希腊 ofxx 小写希腊 ofed 大写俄语 ofex 小写俄语 ofrd=片假名 ofrx=平假名 
